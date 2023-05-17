@@ -23,7 +23,7 @@
 [![Android 13](https://img.shields.io/badge/Android%2013-3ddc84?style=flat-square&logo=android&logoColor=ffffff)](https://www.android.com/android-13/)
 
 ### 💻 Current Work Machine
-#### Pc
+  
 - Amd Rizen3 2200G
 - Vega 8 
 - 16GB DDR4 3200Mhz RAM
