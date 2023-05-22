@@ -6,7 +6,7 @@
 - 📱 Devices I own are Realme C3 (RMX2020).
 - 📱 I'm Actively maintaining Reinject android app
 - ✔️ Looking forward to achieve something :)
-- 📫 You can reach me by my email address 'alex5402-private@gmail.com'.
+- 📫 You can reach me by my email address 'alex5402private@gmail.com'.
 - 📫Lets Connect through Twitter or Telegram.
 
 <a href="https://twitter.com/shellstr0m">
