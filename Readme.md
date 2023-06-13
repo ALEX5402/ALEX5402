@@ -18,9 +18,8 @@
 <br><br>
 
 ### 💻 Current working environments
-[![Windows 11](https://img.shields.io/badge/Windows%2011-00adef?style=flat-square&logo=windows&logoColor=ffffff)](https://www.microsoft.com/en-in/software-download/windows10)
-[![Garuda Linux x86_64](https://img.shields.io/archlinux/v/arch/x86_64/pacman?style=flat-square)](https://forum.garudalinux.org/)
-[![Android 13](https://img.shields.io/badge/Android%2013-3ddc84?style=flat-square&logo=android&logoColor=ffffff)](https://www.android.com/android-13/)
+- Arch based distro Garuda linux with zen kernel
+- And Android 10 and 13
 
 ### 💻 Current Work Machine
   
