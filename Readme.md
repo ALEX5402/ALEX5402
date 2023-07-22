@@ -21,13 +21,6 @@
 - Arch based distro Garuda linux with zen kernel
 - And Android 10 and 13
 
-### 💻 Current Work Machine
-  
-- Amd Rizen3 2200G
-- Vega 8 
-- 16GB DDR4 3200Mhz RAM
-- 500 Gb Hdd + 128 Gb SSD
-
 ### ⚙️ &nbsp;Alex's GitHub Analytics
 <p align="center">
 <a href="https://github.com/alex5402">
