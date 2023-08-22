@@ -4,7 +4,7 @@
 - 💞️ I’m an avid learner and I've keen interest in Android Development and Cloud Computing.
 - 👀 I’m interested in Open source projects like AOSP.
 - 📱 Devices I own are Realme C3 (RMX2020).
-- 📱 I'm Actively maintaining Reinject android app
+- 📱 I'm Actively maintaining a personal android app
 - ✔️ Looking forward to achieve something :)
 - 📫 You can reach me by my email address 'alex5402private@gmail.com'.
 - 📫Lets Connect through Twitter or Telegram.
