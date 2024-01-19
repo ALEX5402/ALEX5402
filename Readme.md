@@ -18,7 +18,7 @@
 <br><br>
 
 ### 💻 Current working environments
--Vanila Arch linux with zen kernel
+- Vanila Arch linux with zen kernel
 - And Android 10 and 13
 
 ### ⚙️ &nbsp;Alex's GitHub Analytics
