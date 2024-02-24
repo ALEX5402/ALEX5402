@@ -1,7 +1,7 @@
 <h2>Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px">, I'm Alex!</h2>
 
 - 👀 Languages/Tools I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java , Kitty, Neovim ,Lua , python (based on project) , js , arm assmbly.
-- 💞️ I’m an avid learner and I've keen interest in Android Development and Cloud Computing.
+- 💞️ I’m an avid learner and I've keen interest in Android kernel Development and Cloud Computing.
 - 👀 I’m interested in Open source projects like Virtualexposed and java hooking methoods
 - ✔️ Looking forward to achieve something :)
 - 📫 You can reach me by my email address 'alex5402private@gmail.com'.
