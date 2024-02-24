@@ -1,6 +1,6 @@
 <h2>Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px">, I'm Alex!</h2>
 
-- 👀 Languages/Tools I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java (basics), MongoDB.
+- 👀 Languages/Tools I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java , Kitty, Neovim ,Lua , python (based on project) , js , arm assmbly.
 - 💞️ I’m an avid learner and I've keen interest in Android Development and Cloud Computing.
 - 👀 I’m interested in Open source projects like Virtualexposed and java hooking methoods
 - ✔️ Looking forward to achieve something :)
@@ -16,9 +16,16 @@
 <br><br>
 
 ### 💻 Current working environments
-- Vanila Arch linux with zen kernel
-- And Android 10 and 13
-
+┌──────────────────────────────────────────┐ 
+   OS : EndeavourOS Linux x86_64 
+   Kernel : 6.7.5-zen1-1-zen 
+   Packages : 1272 (pacman) 
+   Resolution : 1920x1080 
+   DE : Hyprland 
+   Terminal : kitty 
+└──────────────────────────────────────────┘ 
+-  Android 14 and 11
+-   
 ### ⚙️ &nbsp;Alex's GitHub Analytics
 <p align="center">
 <a href="https://github.com/alex5402">
