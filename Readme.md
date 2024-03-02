@@ -6,6 +6,7 @@
 - ✔️ Looking forward to achieve something :)
 - 📫 You can reach me by my email address 'alex5402private@gmail.com'.
 - 📫Lets Connect through Twitter or Telegram.
+- Currently learning rust
 
 <a href="https://twitter.com/shellstr0m">
   <img align="left" alt="Alex's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
