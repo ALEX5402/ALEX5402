@@ -19,7 +19,7 @@
 ### 💻 Current working environments
 - ┌──────────────────────────────────────────┐ 
 -  OS : EndeavourOS Linux x86_64 
--  Kernel : 6.7.5-zen1-1-zen
+-  Kernel : 6.7.8-zen1-1-zen 
 -  Packages : 1272 (pacman)
 -  Resolution : 1920x1080
 -  DE : Hyprland
