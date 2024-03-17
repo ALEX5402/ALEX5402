@@ -26,7 +26,7 @@
 -  Terminal : kitty
 - └──────────────────────────────────────────┘ 
 -  Android 14 and 11
-- My workflow dotfiles are (here 🙂)[https://github.com/ALEX5402/hyprdots] 
+- My workflow dotfiles are [here 🙂](https://github.com/ALEX5402/hyprdots)
 
 ### ⚙️ &nbsp;Alex's GitHub Analytics
 <p align="center">
