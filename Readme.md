@@ -20,7 +20,7 @@
 - ┌──────────────────────────────────────────┐ 
 -  OS : EndeavourOS Linux x86_64 
 -  Kernel : 6.8.1-zen1-1-zen 
-- ​ Packages : 1300 (pacman)
+- ​ Packages : 1325 (pacman)
 -  Resolution : 1920x1080
 -  DE : Hyprland
 -  Terminal : kitty
