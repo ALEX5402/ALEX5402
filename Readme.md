@@ -20,7 +20,7 @@
 - ┌──────────────────────────────────────────┐ 
 -  OS : EndeavourOS Linux x86_64 
 -  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (primary)
--  Kernel : [Linux-xanmod]([https://github.com/xanmod/linux)) (secondary)
+-  Kernel : [Linux-xanmod](https://github.com/xanmod/linux) (secondary)
 - ​ Packages : 1325 (pacman)
 -  Resolution : 1920x1080
 -  DE : Hyprland
