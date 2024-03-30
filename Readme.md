@@ -7,6 +7,7 @@
 - 📫 You can reach me by my email address 'alex5402private@gmail.com'.
 - 📫Lets Connect through Twitter or Telegram.
 - Currently learning rust
+- And i hate Nvidia
 
 <a href="https://twitter.com/shellstr0m">
   <img align="left" alt="Alex's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
@@ -42,3 +43,5 @@
  <img src="https://komarev.com/ghpvc/?username=alex5402&style=flat-square"/>
  <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub+Followers&labelColor=282c34&color=181717&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dalex5402&longCache=true"/>
 </p>
+
+https://github.com/ALEX5402/ALEX5402/assets/76860596/652b1d1b-d51e-4513-9da5-a1096ae7f084
