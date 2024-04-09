@@ -1,4 +1,18 @@
-<h2>Hi there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px">, I'm Alex!</h2>
+``class AboutMe {
+    val username: String = "ALEX5402"
+    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux kernel")
+    
+    fun introduce() {
+        println("👋 Hey there! I'm ALEX5402, a Kotlin connoisseur and aspiring Android developer.")
+        println("💻 When I'm not crafting code, you'll find me immersing myself in discord")
+        println("🎮 Let's connect and geek out over Kotlin and Android! #KotlinDev #Android")
+    }
+}
+
+fun main() {
+    val bio = AboutMe()
+    bio.introduce()
+}``
 
 - 👀 Languages I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java , Lua , python (based on project)  , arm assmbly. , smaili , Rust (learning)
 - 💞️ I’m an avid learner and I've keen interest in Android kernel Development and Cloud Computing.
