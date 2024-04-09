@@ -1,20 +1,20 @@
 ```kotlin
 class AboutMe {
     val username: String = "ALEX5402"
-    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux kernel", "Cloud Computing", "Android kernel Development", "Open source projects", "Rust (learning)")
+    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects", "Rust (Learning)")
 
-    val languages: List<String> = listOf("Kotlin", "C (basics)", "C++ (basics)", "Shell programming (bash)", "Java", "Lua", "Python (based on project)", "ARM Assembly", "Smaili", "Rust (learning)")
+    val languages: List<String> = listOf("Kotlin", "C (Basics)", "C++ (Basics)", "Shell Programming (Bash)", "Java", "Lua", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust (Learning)")
 
     fun introduce() {
         println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
-        println("👀 Languages I know are: ${languages.joinToString()}.")
-        println("💞️ I’m an avid learner and I have a keen interest in Android kernel Development and Cloud Computing.")
-        println("👀 I’m interested in Open source projects like Virtualexposed and java hooking methods.")
-        println("✔️ Looking forward to achieve something :)")
-        println("📫 You can reach me by my email address 'alex5402private@gmail.com'.")
-        println("📫 Let's Connect through Twitter or Telegram.")
-        println("Currently learning Rust.")
-        println("And I hate Nvidia.")
+        println("🚀 Exploring the universe of coding with languages like ${languages.joinToString()}, I'm on a mission to craft elegant solutions.")
+        println("💡 A curious mind with a passion for innovation, I'm deeply intrigued by Android Kernel Development and the vast possibilities of Cloud Computing.")
+        println("🌟 Delving into Open Source projects like Virtualexposed and exploring Java hooking methods, I'm always seeking new challenges and opportunities.")
+        println("💪 With a strong determination to make an impact, I'm constantly pushing boundaries and striving for excellence.")
+        println("✉️ Reach out to me via email at 'alex5402private@gmail.com' to collaborate on exciting ventures.")
+        println("🌐 Let's Connect through Twitter or Telegram for inspiring conversations and networking.")
+        println("📚 Currently honing my skills in Rust while keeping a watchful eye on the ever-evolving tech landscape.")
+        println("⛔️ And yes, I'm not a fan of Nvidia.")
     }
 }
 
@@ -22,6 +22,7 @@ fun main() {
     val bio = AboutMe()
     bio.introduce()
 }
+
 ```
 <a href="https://twitter.com/shellstr0m">
   <img align="left" alt="Alex's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
