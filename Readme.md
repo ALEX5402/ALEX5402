@@ -1,4 +1,4 @@
-``class AboutMe {
+`class AboutMe {
     val username: String = "ALEX5402"
     val interests: List<String> = listOf("Kotlin", "Android Development", "Linux kernel")
     
@@ -12,7 +12,7 @@
 fun main() {
     val bio = AboutMe()
     bio.introduce()
-}``
+}`
 
 - 👀 Languages I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java , Lua , python (based on project)  , arm assmbly. , smaili , Rust (learning)
 - 💞️ I’m an avid learner and I've keen interest in Android kernel Development and Cloud Computing.
