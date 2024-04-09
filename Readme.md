@@ -1,28 +1,28 @@
-`class AboutMe {
+```kotlin
+class AboutMe {
     val username: String = "ALEX5402"
-    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux kernel")
-    
+    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux kernel", "Cloud Computing", "Android kernel Development", "Open source projects", "Rust (learning)")
+
+    val languages: List<String> = listOf("Kotlin", "C (basics)", "C++ (basics)", "Shell programming (bash)", "Java", "Lua", "Python (based on project)", "ARM Assembly", "Smaili", "Rust (learning)")
+
     fun introduce() {
-        println("👋 Hey there! I'm ALEX5402, a Kotlin connoisseur and aspiring Android developer.")
-        println("💻 When I'm not crafting code, you'll find me immersing myself in discord")
-        println("🎮 Let's connect and geek out over Kotlin and Android! #KotlinDev #Android")
+        println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
+        println("👀 Languages I know are: ${languages.joinToString()}.")
+        println("💞️ I’m an avid learner and I have a keen interest in Android kernel Development and Cloud Computing.")
+        println("👀 I’m interested in Open source projects like Virtualexposed and java hooking methods.")
+        println("✔️ Looking forward to achieve something :)")
+        println("📫 You can reach me by my email address 'alex5402private@gmail.com'.")
+        println("📫 Let's Connect through Twitter or Telegram.")
+        println("Currently learning Rust.")
+        println("And I hate Nvidia.")
     }
 }
 
 fun main() {
     val bio = AboutMe()
     bio.introduce()
-}`
-
-- 👀 Languages I know are Kotlin, C (basics), C++ (basics), Shell programming (bash), Java , Lua , python (based on project)  , arm assmbly. , smaili , Rust (learning)
-- 💞️ I’m an avid learner and I've keen interest in Android kernel Development and Cloud Computing.
-- 👀 I’m interested in Open source projects like Virtualexposed and java hooking methoods
-- ✔️ Looking forward to achieve something :)
-- 📫 You can reach me by my email address 'alex5402private@gmail.com'.
-- 📫Lets Connect through Twitter or Telegram.
-- Currently learning rust
-- And i hate Nvidia
-
+}
+```
 <a href="https://twitter.com/shellstr0m">
   <img align="left" alt="Alex's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
 </a>
