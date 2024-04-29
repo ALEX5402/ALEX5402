@@ -40,7 +40,7 @@ fun main() {
 -  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (optional)
 - ​ Packages : 1325 (pacman)
 -  Resolution : 1920x1080
--  DE : Kde Plasma 6.+
+-  DE : Kde Plasma 6
 -  Terminal : kitty
 - └──────────────────────────────────────────┘ 
 -  Android 14 and 11
