@@ -79,7 +79,7 @@ fun main() {
     <a href="https://neovim.io/" target="_blank"><img src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-mark.svg" alt="neovim" width="40" height="40"/></a>
     <a href="https://github.com/waydroid/waydroid" target="_blank"><img src="https://waydro.id/assets/images/logo/waydroid_icon_sm.png" alt="waydroid" width="40" height="40"/></a>
 </p>
-
+<img src="https://64.media.tumblr.com/34784257378ce2c51675599159735772/tumblr_nd3b8i2gL01sedjuto1_400.gifv" align="right" width="72"/>
 
 
 
