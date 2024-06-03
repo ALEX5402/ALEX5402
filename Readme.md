@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm ALEX M!</h1>
+<h1 align="center">Hi 👋, I'm ALEX !</h1>
 <h3 align="center">A passionate Android developer and Linux Enthusiast from India</h3>
 
 <img align="right" alt="coding" width="400" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif">
