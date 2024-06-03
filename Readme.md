@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Jetpack Compose and KMP**
 
-- 👯 I’m looking to collaborate on **Android & Flutter Projects**
+- 👯 I’m looking to collaborate on **Android Core Topics Related Projects**
 
 - 💬 Ask me about **anything ,we'll figure it out**
 
