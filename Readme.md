@@ -1,67 +1,23 @@
-```kotlin
-class AboutMe {
-    val username: String = "ALEX5402"
-    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects", "Rust (Learning)")
+<h1 align="center">Hi 👋, I'm ALEX M!</h1>
+<h3 align="center">A passionate Android developer and Linux Enthusiast from India</h3>
 
-    val languages: List<String> = listOf("Kotlin", "C (Basics)", "C++ (Basics)", "Shell Programming (Bash)", "Java", "Lua", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust (Learning)")
+<img align="right" alt="coding" width="400" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif">
 
-    fun introduce() {
-        println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
-        println("🚀 Exploring the universe of coding with languages like ${languages.joinToString()}, I'm on a mission to craft elegant solutions.")
-        println("💡 A curious mind with a passion for innovation, I'm deeply intrigued by Android Kernel Development and the vast possibilities of Cloud Computing.")
-        println("🌟 Delving into Open Source projects like Virtualexposed and exploring Java hooking methods, I'm always seeking new challenges and opportunities.")
-        println("💪 With a strong determination to make an impact, I'm constantly pushing boundaries and striving for excellence.")
-        println("✉️ Reach out to me via email at 'alex5402private@gmail.com' to collaborate on exciting ventures.")
-        println("🌐 Let's Connect through Twitter or Telegram for inspiring conversations and networking.")
-        println("📚 Currently honing my skills in Rust while keeping a watchful eye on the ever-evolving tech landscape.")
-        println("⛔️ And yes, I'm not a fan of Nvidia.")
-    }
-}
+![GitHub Views](https://komarev.com/ghpvc/?username=saurabhm13&color=0e75b6) 
 
-fun main() {
-    val bio = AboutMe()
-    bio.introduce()
-}
+- 🔭 I’m currently working as **Android Developer as a Freelancer**
 
-```
-<a href="https://twitter.com/shellstr0m">
-  <img align="left" alt="Alex's Twitter " width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/twitter.svg" />
-</a>
-<a href="https://t.me/alex5402">
-  <img align="left" alt="Alex's Telegram" width="22px" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/telegram.svg" />
+- 🌱 I’m currently learning **Jetpack Compose**
 
-<br><br>
+- 👯 I’m looking to collaborate on **Android & Flutter Projects**
 
-### 💻 Current working environments
-- ┌──────────────────────────────────────────┐ 
--  OS : EndeavourOS Linux x86_64 
--  Kernel : [Linux-xanmod](https://github.com/xanmod/linux) (primary)
--  Kernel : [[Linux-catchyos](https://github.com/CachyOS/linux-cachyos)](secondery)
--  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (optional)
-- ​ Packages : 1325 (pacman)
--  Resolution : 1920x1080
--  DE : Kde Plasma 6
--  Terminal : kitty
-- └──────────────────────────────────────────┘ 
--  Android 14 and 11
-- My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/hyprdots)
-- Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
+- 💬 Ask me about **anything ,we'll figure it out**
 
-### ⚙️ &nbsp;Alex's GitHub Analytics
-<p align="center">
-<a href="https://github.com/alex5402">
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=alex5402&show_icons=true&theme=nightowl&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex5402&layout=compact&langs_count=8&theme=nightowl"/>
-</a>
-</p>
-<br>
-<br>
-<p align="center">
- <img src="https://komarev.com/ghpvc/?username=alex5402&style=flat-square"/>
- <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub+Followers&labelColor=282c34&color=181717&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dalex5402&longCache=true"/>
-</p>
+- 🗨️ Directly contact with me On [Telegram](https://t.me/alex5402) 
 
-<h3 align="left">Languages and Tools I use:</h3>
+
+### Skills
+
 <p align="left">
     <a href="https://developer.android.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/></a>
     <a href="https://www.jetbrains.com/pycharm/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pycharm/pycharm-original-wordmark.svg" alt="pycharm" width="40" height="40"/></a>
@@ -79,7 +35,39 @@ fun main() {
     <a href="https://neovim.io/" target="_blank"><img src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-mark.svg" alt="neovim" width="40" height="40"/></a>
     <a href="https://github.com/waydroid/waydroid" target="_blank"><img src="https://waydro.id/assets/images/logo/waydroid_icon_sm.png" alt="waydroid" width="40" height="40"/></a>
 </p>
+
+### Socials
+
+<p align="left"> <a href="https://www.github.com/alex5402" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/shell-strom-348241242" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://x.com/shellstr0m" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
+
+
+### 💻 Current working environments
+- ┌──────────────────────────────────────────┐ 
+-  OS : EndeavourOS Linux x86_64 
+-  Kernel : [Linux-xanmod](https://github.com/xanmod/linux) (primary)
+-  Kernel : [[Linux-catchyos](https://github.com/CachyOS/linux-cachyos)](secondery)
+-  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (optional)
+- ​ Packages : 1325 (pacman)
+-  Resolution : 1920x1080
+-  DE : Kde Plasma 6
+-  Terminal : kitty
+- └──────────────────────────────────────────┘ 
+-  Android 14 and 11
+- My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/hyprdots)
+- Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
+
+# MY Github Activity📊:
+
+<p align="center">
+<a href="https://github.com/alex5402">
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=alex5402&show_icons=true&theme=nightowl&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex5402&layout=compact&langs_count=8&theme=nightowl"/>
+</a>
+</p>
+<br>
+<br>
+<p align="center">
+ <img src="https://komarev.com/ghpvc/?username=alex5402&style=flat-square"/>
+ <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub+Followers&labelColor=282c34&color=181717&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dalex5402&longCache=true"/>
+</p>
 <img src="https://64.media.tumblr.com/34784257378ce2c51675599159735772/tumblr_nd3b8i2gL01sedjuto1_400.gifv" align="right" width="72"/>
-
-
-
