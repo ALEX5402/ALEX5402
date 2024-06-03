@@ -61,7 +61,7 @@
 # Productivity Stats📈:
 
   <tr>
-    <td> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ALEX5402&theme=monokai"  display=block width=100% height=auto  alt="1" /> </td>
+   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ALEX5402&theme=monokai"/> 
    </tr> 
   </tr>
   
