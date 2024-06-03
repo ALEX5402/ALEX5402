@@ -42,17 +42,7 @@
 
 
 ### 💻 Current working environments
-- ┌──────────────────────────────────────────┐ 
--  OS : EndeavourOS Linux x86_64 
--  Kernel : [Linux-xanmod](https://github.com/xanmod/linux) (primary)
--  Kernel : [[Linux-catchyos](https://github.com/CachyOS/linux-cachyos)](secondery)
--  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (optional)
-- ​ Packages : 1325 (pacman)
--  Resolution : 1920x1080
--  DE : Kde Plasma 6
--  Terminal : kitty
-- └──────────────────────────────────────────┘ 
--  Android 14 and 11
+
 - My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/hyprdots)
 - Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
 
