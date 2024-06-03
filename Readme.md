@@ -3,8 +3,6 @@
 
 <img align="right" alt="coding" width="400" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif">
 
-![GitHub Views](https://komarev.com/ghpvc/?username=saurabhm13&color=0e75b6) 
-
 - 🔭 I’m currently working as **Android Developer as a Freelancer**
 
 - 🌱 I’m currently learning **Jetpack Compose**
