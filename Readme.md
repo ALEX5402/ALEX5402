@@ -62,7 +62,6 @@
 
   <tr>
    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ALEX5402&theme=monokai"/> 
-   </tr> 
   </tr>
   
 <br>
