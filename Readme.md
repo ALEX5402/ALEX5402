@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working as **Android Developer as a Freelancer**
 
-- 🌱 I’m currently learning **Jetpack Compose**
+- 🌱 I’m currently learning **Jetpack Compose and KMP**
 
 - 👯 I’m looking to collaborate on **Android & Flutter Projects**
 
