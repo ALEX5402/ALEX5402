@@ -44,7 +44,7 @@
 - My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/hyprdots)
 - Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
 
-# MY Github Activity📊:
+# Github Activity📊:
 
 <p align="center">
 <a href="https://github.com/alex5402">
