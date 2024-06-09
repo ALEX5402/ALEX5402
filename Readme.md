@@ -58,9 +58,4 @@
  <img src="https://komarev.com/ghpvc/?username=alex5402&style=flat-square"/>
  <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=GitHub+Followers&labelColor=282c34&color=181717&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dalex5402&longCache=true"/>
 </p>
-# Productivity Stats📈:
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ALEX5402&theme=monokai"/> 
-
-
 <img src="https://64.media.tumblr.com/34784257378ce2c51675599159735772/tumblr_nd3b8i2gL01sedjuto1_400.gifv" align="right" width="72"/>
