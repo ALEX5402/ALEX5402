@@ -1,9 +1,9 @@
 ```kotlin
 class AboutMe {
     val username: String = "ALEX5402"
-    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects", "Rust (Learning)")
+    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects", "Rust")
 
-    val languages: List<String> = listOf("Kotlin", "C (Basics)", "C++ (Basics)", "Shell Programming (Bash)", "Java", "Lua", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust (Learning)")
+    val languages: List<String> = listOf("Kotlin", "C ", "C++", "Shell Programming (Bash)", "Java", "Lua", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust ")
 
     fun introduce() {
         println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
