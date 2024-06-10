@@ -116,7 +116,7 @@
 						({ name: activity, details, state } = data.activities[activityNumber]);
 						activityImage = data.activities[activityNumber].assets
 							? `https://cdn.discordapp.com/app-assets/${data.activities[activityNumber].application_id}/${data.activities[activityNumber].assets.large_image}.webp?size=512`
-							: images[activity] || 'question_mark.png';
+							: images[activity] || 'alex.png';
 						smallImage = '';
 						if (
 							data.activities[activityNumber].assets &&
