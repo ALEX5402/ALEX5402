@@ -1,13 +1,13 @@
 ```kotlin
 class AboutMe {
     val username: String = "ALEX5402"
-    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects", "Rust")
+    val interests: List<String> = listOf("Kotlin", "Android Development", "Linux Kernel", "Cloud Computing", "Android Kernel Development", "Open Source Projects")
 
-    val languages: List<String> = listOf("Kotlin", "C ", "C++", "Shell Programming (Bash)", "Java", "Lua", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust ")
+    val skills: List<String> = listOf("Kotlin", "MVVM", "Di", "MVP", "Gradle" , "Android Sdk", "C ", "C++", "Shell Programming (Bash)", "Java", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust","Lua" ,"Kotlin script )
 
     fun introduce() {
         println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
-        println("🚀 Exploring the universe of coding with languages like ${languages.joinToString()}, I'm on a mission to craft elegant solutions.")
+        println("🚀 Exploring the universe of coding with languages like ${skills.joinToString()}, I'm on a mission to craft elegant solutions.")
         println("💡 A curious mind with a passion for innovation, I'm deeply intrigued by Android Kernel Development and the vast possibilities of Cloud Computing.")
         println("🌟 Delving into Open Source projects like Virtualexposed and exploring Java hooking methods, I'm always seeking new challenges and opportunities.")
         println("💪 With a strong determination to make an impact, I'm constantly pushing boundaries and striving for excellence.")
@@ -33,16 +33,10 @@ fun main() {
 <br><br>
 
 ### 💻 Current working environments
-- ┌──────────────────────────────────────────┐ 
+
 -  OS : EndeavourOS Linux x86_64 
--  Kernel : [Linux-xanmod](https://github.com/xanmod/linux) (primary)
--  Kernel : [[Linux-catchyos](https://github.com/CachyOS/linux-cachyos)](secondery)
--  Kernel : [Linux-zen](https://github.com/zen-kernel/zen-kernel) (optional)
-- ​ Packages : 1325 (pacman)
--  Resolution : 1920x1080
 -  DE : Hyprland
 -  Terminal : kitty
-- └──────────────────────────────────────────┘ 
 -  Android 14 and 11
 - My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/dotfiles)
 - Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
