@@ -34,12 +34,15 @@ fun main() {
 
 ### 💻 Current working environments
 
--  OS : EndeavourOS Linux x86_64 
+-  OS : EndeavourOS Linux x86_64
 -  DE : Hyprland
 -  Terminal : kitty
 -  Android 14 and 11
 - My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/dotfiles)
 - Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
+
+## Discord :3
+[![Discord Presence](https://lanyard.cnrad.dev/api/803060151082418217)](https://discord.com/users/803060151082418217)
 
 ### ⚙️ &nbsp;Alex's GitHub Analytics
 <p align="center">

@@ -86,18 +86,6 @@
 				if (opcode === 0) {
 					isSpotify = data.listening_to_spotify;
 					isActivity = !!data.activities[0];
-					// console.log(isActivity, hasStatus);
-					// hasStatus = data.activities[0].name === 'Custom Status';
-
-					// // everything is so ugly oh my god why is there so many edge cases
-					// if (hasStatus && data.activities[1].name) {
-					// 	isActivity = true;
-					// 	activityNumber = 1;
-					// } else {
-					// 	isActivity = false;
-					// 	activityNumber = 0;
-					// }
-
 					if (isSpotify) {
 						({
 							song: activity,
@@ -114,9 +102,7 @@
 						tick();
 					} else if (isActivity) {
 						({ name: activity, details, state } = data.activities[activityNumber]);
-						activityImage = data.activities[activityNumber].assets
-							? `https://cdn.discordapp.com/app-assets/${data.activities[activityNumber].application_id}/${data.activities[activityNumber].assets.large_image}.webp?size=512`
-							: images[activity] || 'alex.png';
+						activityImage = 'handsome-giga-chad.png';
 						smallImage = '';
 						if (
 							data.activities[activityNumber].assets &&
@@ -136,8 +122,6 @@
 						tick();
 					}
 				}
-
-				// re-open websocket connection when it closes, e.g. when switched out of tab
 				lanyard.onclose = () => {
 					lanyard.close();
 					setTimeout(() => connect(), 2500);
@@ -165,7 +149,7 @@
 			<h3>{activity}</h3>
 		{/if}
 		<h5>{details || ''}</h5>
-		<h5>{ state || ''}</h5>
+		<h5>{state || ''}</h5>
 		{#if isSpotify}
 			<progress max="100" value={progress} />
 		{:else if isActivity}
