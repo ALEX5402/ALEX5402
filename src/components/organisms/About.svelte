@@ -21,23 +21,23 @@
 		<RichPresence />
 	</div>
 	<div class="text">
-		<h2>bio</h2>
+		<h2>Bio</h2>
 		<p>
-			Hey there, I'm Suman people know me as Alex on internet :) I'm a <Tooltip tip={age}
-				><span>{Math.floor(Number(age))}</span></Tooltip>
-			year old native android developer from India. I started programming as a hobby first, but after
-			<span>2021</span> I began taking it seriously.
-			however, I’ve grown a knack for programming. I like contributing to
-			<Tooltip tip="🤓">
-				<a href="https://github.com/alex5402" target="_blank" rel="noreferrer">
-					<span>open source</span>
-				</a>
-			</Tooltip>
-			android projects like <Tooltip tip="Kernel Su">
-				<a href="https://github.com/tiann/KernelSU" target="_blank" rel="noreferrer">
-					<span>kernel Su</span>
-				</a>
-			</Tooltip>
+			Hey there! I'm Suman, but people know me as Alex on the internet. :) I'm a <Tooltip tip={age}
+				><span>{Math.floor(Number(age))}</span></Tooltip
+			>
+			year-old native Android developer from India. I started programming as a hobby, but after
+			<span>2021</span>, I began taking it seriously. Over time, I've developed a strong passion for
+			programming. I enjoy contributing to <Tooltip tip="🤓">
+				<a href="https://github.com/alex5402" target="_blank" rel="noreferrer"
+					><span>open-source</span></a
+				></Tooltip
+			>
+			Android projects, such as <Tooltip tip="KernelSU">
+				<a href="https://github.com/tiann/KernelSU" target="_blank" rel="noreferrer"
+					><span>KernelSU</span></a
+				></Tooltip
+			>.
 		</p>
 	</div>
 </section>

@@ -9,19 +9,19 @@
 </script>
 
 <div class="socials-container">
-	<Social tip="ALEX5402" link="https://github.com/alex5402">
+	<Social tip="My Github 🔥 " link="https://github.com/alex5402">
 		<GitHubIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip={user.username} link={`https://discord.com/users/${user.id}`}>
+	<Social tip="I Play Games here 😎" link={`https://discord.com/users/${user.id}`}>
 		<DiscordIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="@ALEX5402" link="mailto:alex5402privvate@gmail.com">
+	<Social tip="Yes Mail Me 💌" link="mailto:alex5402privvate@gmail.com">
 		<MailIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="USD$" link="https://0x0.st/XbW0.png">
+	<Social tip="I Love Money 😍" link="https://buymeacoffee.com/alex5402">
 		<CoffeeCupIcon color="var(--accent)" />
 	</Social>
 </div>
