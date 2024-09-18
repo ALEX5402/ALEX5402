@@ -38,7 +38,7 @@ fun main() {
 -  DE : Hyprland
 -  Terminal : kitty
 -  Android 14 and 11
-- My workflow dotfiles are [Hyprland 🙂](https://github.com/ALEX5402/dotfiles)
+- My workflow dotfiles for [Hyprland 🙂](https://github.com/ALEX5402/dotfiles)
 - Hy workflow config files for [Kde 🙂](https://github.com/ALEX5402/Kdesettings)
 
 ## Discord :3
