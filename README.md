@@ -6,7 +6,7 @@ class AboutMe {
     val skills: List<String> = listOf("Kotlin", "MVVM", "Di", "MVP", "Gradle" , "Android Sdk", "C ", "C++", "Shell Programming (Bash)", "Java", "Python (Based on Project)", "ARM Assembly", "Smaili", "Rust","Lua" ,"Kotlin script )
 
     fun introduce() {
-        println("👋 Hey there! I'm ALEX5402, a Kotlin enthusiast and aspiring Android developer.")
+        println("👋 Hey there! I'm ALEX5402, a Linux enthusiast and aspiring Android developer.")
         println("🚀 Exploring the universe of coding with languages like ${skills.joinToString()}, I'm on a mission to craft elegant solutions.")
         println("💡 A curious mind with a passion for innovation, I'm deeply intrigued by Android Kernel Development and the vast possibilities of Cloud Computing.")
         println("🌟 Delving into Open Source projects like Virtualexposed and exploring Java hooking methods, I'm always seeking new challenges and opportunities.")
