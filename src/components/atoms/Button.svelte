@@ -2,7 +2,7 @@
 	export let side = false;
 </script>
 
-<button on:click on:keypress class:button-with-side={side}>
+<button on:click on:keypress class:button-with-side={side} class:btn-primary={$$props.class?.includes('btn-primary')} class:btn-secondary={$$props.class?.includes('btn-secondary')}>
 	<div class:side />
 	<slot />
 </button>

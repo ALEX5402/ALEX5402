@@ -1,6 +1,33 @@
 @import url(theme.light.scss) (prefers-color-scheme: light);
 @import url(theme.dark.scss) (prefers-color-scheme: dark);
 
+/* Custom Properties for Enhanced Design */
+:root {
+    --font-one: "Space Grotesk", sans-serif;
+    --font-two: "JetBrains Mono", monospace;
+    --bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --bezier-two: cubic-bezier(0.4, 0, 0.2, 1);
+    --bezier-three: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Enhanced shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
+    --gradient-surface: linear-gradient(145deg, var(--surface) 0%, rgba(255, 255, 255, 0.03) 100%);
+    --gradient-text: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+    
+    /* Animations */
+    --transition-fast: 0.15s var(--bezier-two);
+    --transition-normal: 0.3s var(--bezier-two);
+    --transition-slow: 0.5s var(--bezier-two);
+    --transition-bounce: 0.6s var(--bezier-three);
+}
+
 * {
     box-sizing: inherit;
     margin: 0;
@@ -9,6 +36,7 @@
     scroll-behavior: smooth;
     scroll-margin-top: 6rem;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: color var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast);
 
     @media (max-width: 868px) {
         scroll-margin-top: 1rem;
@@ -47,70 +75,269 @@ body.stop-transitions * {
     transition: none !important;
 }
 
-:root {
-    --font-one: "Space Grotesk", sans-serif;
-    --font-two: "JetBrains Mono", monospace;
-    --bezier-one: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
+
 
 ::selection {
     background: var(--accent-opacity);
 }
 
-/*-----headings-----*/
+/*-----Enhanced Typography-----*/
 
 h1 {
     color: var(--text-primary);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.075em;
-    line-height: 0.05rem;
-    line-height: 101.6%;
-    font-size: 6rem;
+    line-height: 1.1;
+    font-size: clamp(3rem, 8vw, 6rem);
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s var(--bezier-two);
 }
 
 h2 {
     color: var(--text-primary);
-    font-weight: 500;
-    font-size: 2.25rem;
+    font-weight: 600;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
     border-radius: 12px;
     width: fit-content;
     text-align: left;
+    position: relative;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 60%;
+        height: 3px;
+        background: var(--gradient-primary);
+        border-radius: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: slideIn 0.8s var(--bezier-two) 0.3s forwards;
+    }
 }
 
 h3 {
     color: var(--text-primary);
-    font-weight: 500;
-    font-size: 1.4rem;
+    font-weight: 600;
+    font-size: clamp(1.2rem, 3vw, 1.4rem);
+    margin-bottom: 1rem;
 }
 
 h4 {
     color: var(--text-secondary);
-    font-weight: 300;
-    font-size: 1.6rem;
+    font-weight: 500;
+    font-size: clamp(1.3rem, 3.5vw, 1.6rem);
+    line-height: 1.4;
 }
 
 h5 {
     color: var(--text-secondary);
-    font-size: 1.15rem;
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
     font-family: var(--font-two);
-    font-weight: 300;
-    letter-spacing: -0.075em;
+    font-weight: 400;
+    letter-spacing: -0.02em;
 }
 
 h6 {
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    font-size: clamp(0.85rem, 2vw, 0.9rem);
     font-family: var(--font-two);
-    font-weight: 300;
-    letter-spacing: -0.075em;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 }
 
 p {
     color: var(--text-secondary);
-    font-weight: 300;
-    font-size: 1.1rem;
-    letter-spacing: -0rem;
-    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    letter-spacing: -0.01em;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/*-----Professional Animations-----*/
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/*-----Enhanced Layout-----*/
+
+main {
+    position: relative;
+    z-index: 1;
+    
+    &::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: 
+            radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+            radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.05) 0%, transparent 50%);
+        pointer-events: none;
+        z-index: -1;
+    }
+}
+
+.wrapper {
+    min-height: 0vw;
+    margin-inline: auto;
+    width: min(90%, 62rem) !important;
+    position: relative;
+
+    @media (max-width: 868px) {
+        margin-bottom: 4.75rem;
+    }
+
+    @media (max-width: 768px) {
+        width: min(88%, 65rem) !important;
+    }
+}
+
+/*-----Professional Cards-----*/
+
+.card {
+    background: var(--gradient-surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: var(--gradient-primary);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform var(--transition-normal);
+    }
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-xl);
+        
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+/*-----Enhanced Buttons-----*/
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+        transition: left var(--transition-slow);
+    }
+    
+    &:hover::before {
+        left: 100%;
+    }
+    
+    &.btn-primary {
+        background: var(--gradient-primary);
+        color: white;
+        box-shadow: var(--shadow-md);
+        
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+    }
+    
+    &.btn-secondary {
+        background: transparent;
+        color: var(--text-primary);
+        border: 2px solid var(--border);
+        
+        &:hover {
+            background: var(--surface);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+    }
 }
 
 @media (max-width: 868px) {
@@ -121,6 +348,10 @@ p {
         font-size: 1.75rem;
         margin-bottom: 0.3rem;
         display: inline-block;
+        
+        &::after {
+            width: 40%;
+        }
     }
 
     h3 {
@@ -133,6 +364,16 @@ p {
 
     p {
         font-size: 1rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+        border-radius: 16px;
+    }
+    
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
     }
 }
 

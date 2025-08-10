@@ -78,7 +78,7 @@
 </section>
 
 <style lang="scss">
-	@import '../../styles/mixins.scss';
+	@use '../../styles/mixins.scss' as *;
 
 	.title {
 		display: flex;
