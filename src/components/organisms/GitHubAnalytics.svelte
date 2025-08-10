@@ -58,6 +58,13 @@
 		@media (max-width: 768px) {
 			padding: 0 1rem;
 		}
+		
+		@media (max-width: 480px) {
+			padding: 0 0.5rem;
+			/* Prevent horizontal overflow */
+			overflow-x: hidden;
+			width: 100%;
+		}
 	}
 
 	.section-header {
@@ -124,28 +131,66 @@
 		}
 
 		@media (max-width: 480px) {
-			padding: 1.5rem;
+			padding: 1rem;
+			border-radius: 16px;
+			margin-bottom: 2rem;
+			/* Prevent horizontal overflow */
+			overflow-x: hidden;
+			width: 100%;
+			max-width: 100%;
 		}
 	}
 
 	.metrics-row {
 		margin-bottom: 3rem;
+		
+		@media (max-width: 768px) {
+			margin-bottom: 2rem;
+		}
+		
+		@media (max-width: 480px) {
+			margin-bottom: 1.5rem;
+		}
 	}
 	
 	.monthly-activity-row {
 		margin-bottom: 3rem;
+		
+		@media (max-width: 768px) {
+			margin-bottom: 2rem;
+		}
+		
+		@media (max-width: 480px) {
+			margin-bottom: 1.5rem;
+		}
 	}
 
 	.main-content {
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 3.5rem;
+		
+		@media (max-width: 768px) {
+			gap: 2.5rem;
+		}
+		
+		@media (max-width: 480px) {
+			gap: 2rem;
+		}
 	}
 
 	.left-panel {
 		display: flex;
 		flex-direction: column;
 		gap: 3.5rem;
+		
+		@media (max-width: 768px) {
+			gap: 2.5rem;
+		}
+		
+		@media (max-width: 480px) {
+			gap: 1.5rem;
+		}
 	}
 	
 	.bottom-panel {
@@ -157,6 +202,16 @@
 		@media (max-width: 1200px) {
 			grid-template-columns: 1fr;
 			gap: 2.5rem;
+		}
+		
+		@media (max-width: 768px) {
+			gap: 2rem;
+			margin-top: 2rem;
+		}
+		
+		@media (max-width: 480px) {
+			gap: 1.5rem;
+			margin-top: 1.5rem;
 		}
 	}
 

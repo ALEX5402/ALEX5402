@@ -106,10 +106,12 @@
 		
 		@media (max-width: 768px) {
 			grid-template-columns: repeat(2, 1fr);
+			gap: 0.75rem;
 		}
 		
 		@media (max-width: 480px) {
 			grid-template-columns: 1fr;
+			gap: 0.5rem;
 		}
 	}
 	
@@ -119,6 +121,16 @@
 		border-radius: 12px;
 		padding: 1.5rem;
 		transition: all 0.2s ease;
+		
+		@media (max-width: 768px) {
+			padding: 1.25rem;
+			border-radius: 10px;
+		}
+		
+		@media (max-width: 480px) {
+			padding: 1rem;
+			border-radius: 8px;
+		}
 		
 		&:hover {
 			transform: translateY(-2px);
@@ -131,6 +143,16 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin-bottom: 1rem;
+		
+		@media (max-width: 768px) {
+			gap: 0.5rem;
+			margin-bottom: 0.75rem;
+		}
+		
+		@media (max-width: 480px) {
+			gap: 0.375rem;
+			margin-bottom: 0.5rem;
+		}
 	}
 	
 	.metric-icon {
@@ -142,12 +164,34 @@
 		justify-content: center;
 		background: var(--surface);
 		border-radius: 8px;
+		
+		@media (max-width: 768px) {
+			font-size: 1.25rem;
+			width: 1.75rem;
+			height: 1.75rem;
+			border-radius: 6px;
+		}
+		
+		@media (max-width: 480px) {
+			font-size: 1.1rem;
+			width: 1.5rem;
+			height: 1.5rem;
+			border-radius: 4px;
+		}
 	}
 	
 	.metric-title {
 		font-size: 0.9rem;
 		color: var(--text-muted);
 		font-weight: 500;
+		
+		@media (max-width: 768px) {
+			font-size: 0.8rem;
+		}
+		
+		@media (max-width: 480px) {
+			font-size: 0.75rem;
+		}
 	}
 	
 	.metric-value {
@@ -155,6 +199,16 @@
 		font-weight: 700;
 		color: var(--text);
 		margin-bottom: 0.5rem;
+		
+		@media (max-width: 768px) {
+			font-size: 1.5rem;
+			margin-bottom: 0.375rem;
+		}
+		
+		@media (max-width: 480px) {
+			font-size: 1.25rem;
+			margin-bottom: 0.25rem;
+		}
 	}
 	
 	.metric-change {
@@ -162,6 +216,16 @@
 		align-items: center;
 		gap: 0.5rem;
 		font-size: 0.8rem;
+		
+		@media (max-width: 768px) {
+			gap: 0.375rem;
+			font-size: 0.75rem;
+		}
+		
+		@media (max-width: 480px) {
+			gap: 0.25rem;
+			font-size: 0.7rem;
+		}
 	}
 	
 	.change-value {
