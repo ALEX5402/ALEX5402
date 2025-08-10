@@ -4,9 +4,12 @@
 	import Socials from '../molecules/Socials.svelte';
 
 	function handleClick() {
-		const el = document.querySelector('#aw');
+		const el = document.querySelector('#github-analytics');
 		if (!el) return;
-		el.scrollIntoView(true);
+		el.scrollIntoView({ 
+			behavior: 'smooth',
+			block: 'start'
+		});
 	}
 </script>
 

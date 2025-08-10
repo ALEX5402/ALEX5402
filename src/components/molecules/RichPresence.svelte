@@ -251,13 +251,14 @@
 		background: linear-gradient(145deg, var(--surface) 0%, rgba(255, 255, 255, 0.03) 100%);
 		border: 1px solid var(--border);
 		border-radius: 20px;
-		padding: 2.5rem;
+		padding: 4rem;
 		box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 		backdrop-filter: blur(10px);
 		position: relative;
 		overflow: hidden;
-		min-width: 320px;
-		max-width: 400px;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 500px;
 		
 		&::before {
 			content: '';
@@ -269,10 +270,14 @@
 			background: linear-gradient(90deg, var(--accent), transparent);
 		}
 
+		@media (max-width: 1400px) {
+			padding: 3.5rem;
+			min-height: 450px;
+		}
+
 		@media (max-width: 768px) {
-			min-width: 100%;
-			max-width: 100%;
-			padding: 2rem;
+			padding: 2.5rem;
+			min-height: 350px;
 		}
 	}
 
@@ -320,14 +325,16 @@
 	.presence-content {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 3rem;
+		height: 100%;
+		justify-content: space-between;
 	}
 
 	.user-section {
 		display: flex;
 		align-items: center;
-		gap: 1.25rem;
-		padding: 1.25rem;
+		gap: 1.5rem;
+		padding: 2rem;
 		background: linear-gradient(135deg, var(--bg-color) 0%, rgba(255, 255, 255, 0.05) 100%);
 		border-radius: 16px;
 		border: 1px solid var(--border);
@@ -339,12 +346,22 @@
 	}
 
 	.avatar {
-		width: 70px;
-		height: 70px;
+		width: 100px;
+		height: 100px;
 		border-radius: 50%;
 		object-fit: cover;
 		border: 3px solid var(--border);
 		box-shadow: var(--shadow-md);
+
+		@media (max-width: 1400px) {
+			width: 90px;
+			height: 90px;
+		}
+
+		@media (max-width: 768px) {
+			width: 80px;
+			height: 80px;
+		}
 	}
 
 	.status-ring {
@@ -364,9 +381,17 @@
 
 	.username {
 		margin: 0 0 0.5rem 0;
-		font-size: 1.3rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 		color: var(--text);
+
+		@media (max-width: 1400px) {
+			font-size: 1.6rem;
+		}
+
+		@media (max-width: 768px) {
+			font-size: 1.4rem;
+		}
 	}
 
 	.platforms {
@@ -379,13 +404,14 @@
 	}
 
 	.spotify-section {
-		margin-top: 2rem;
+		margin-top: 1rem;
 		padding: 2rem;
 		background: linear-gradient(135deg, rgba(29, 185, 84, 0.1) 0%, rgba(30, 215, 96, 0.05) 100%);
 		border: 1px solid rgba(29, 185, 84, 0.3);
 		border-radius: 20px;
 		position: relative;
 		overflow: hidden;
+		box-shadow: var(--shadow-sm);
 		
 		&::before {
 			content: '';
@@ -525,10 +551,12 @@
 	}
 
 	.activity-section {
-		padding: 1.5rem;
+		padding: 1.75rem;
 		background: linear-gradient(135deg, var(--bg-color) 0%, rgba(255, 255, 255, 0.05) 100%);
 		border-radius: 16px;
 		border: 1px solid var(--border);
+		box-shadow: var(--shadow-sm);
+		margin-bottom: 1rem;
 	}
 
 	.activity-header {
@@ -539,22 +567,22 @@
 		position: relative;
 		
 		.activity-icon {
-			font-size: 1.4rem;
-			width: 40px;
-			height: 40px;
+			font-size: 1.6rem;
+			width: 48px;
+			height: 48px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			background: var(--gradient-surface);
 			border: 1px solid var(--border);
-			border-radius: 8px;
+			border-radius: 10px;
 			box-shadow: var(--shadow-sm);
 		}
 		
 		.activity-image {
-			width: 40px;
-			height: 40px;
-			border-radius: 8px;
+			width: 48px;
+			height: 48px;
+			border-radius: 10px;
 			object-fit: cover;
 			box-shadow: var(--shadow-sm);
 			border: 1px solid var(--border);
