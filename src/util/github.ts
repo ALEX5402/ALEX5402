@@ -1,5 +1,6 @@
 const GITHUB_API_BASE = 'https://api.github.com';
-const USERNAME = 'ALEX5402';
+const USERNAME = 'alex5402';
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 
 export interface GitHubUser {
 	login: string;
@@ -46,7 +47,21 @@ export const realLanguageData: GitHubLanguage[] = [
 ];
 
 export async function fetchUserData(): Promise<GitHubUser> {
-	const response = await fetch(`${GITHUB_API_BASE}/users/${USERNAME}`);
+	const headers: Record<string, string> = {
+		'Accept': 'application/vnd.github.v3+json',
+		'User-Agent': 'alex5402-portfolio'
+	};
+	
+	// Add authorization header if token is available
+	if (GITHUB_TOKEN) {
+		headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
+	}
+	
+	const response = await fetch(`${GITHUB_API_BASE}/users/${USERNAME}`, {
+		method: 'GET',
+		headers
+	});
+	
 	if (!response.ok) {
 		throw new Error('Failed to fetch user data');
 	}
@@ -54,11 +69,44 @@ export async function fetchUserData(): Promise<GitHubUser> {
 }
 
 export async function fetchUserRepos(): Promise<GitHubRepo[]> {
-	const response = await fetch(`${GITHUB_API_BASE}/users/${USERNAME}/repos?sort=updated&per_page=100`);
-	if (!response.ok) {
-		throw new Error('Failed to fetch repositories');
+	try {
+		console.log('Fetching repos for username:', USERNAME);
+		console.log('Using GitHub token:', GITHUB_TOKEN ? 'Yes' : 'No');
+		
+		const headers: Record<string, string> = {
+			'Accept': 'application/vnd.github.v3+json',
+			'User-Agent': 'alex5402-portfolio'
+		};
+		
+		// Add authorization header if token is available
+		if (GITHUB_TOKEN) {
+			headers['Authorization'] = `Bearer ${GITHUB_TOKEN}`;
+		}
+		
+		const response = await fetch(`${GITHUB_API_BASE}/users/${USERNAME}/repos?sort=updated&per_page=100`, {
+			method: 'GET',
+			headers
+		});
+		
+		console.log('GitHub API response status:', response.status);
+		
+		if (!response.ok) {
+			const errorText = await response.text();
+			console.error('GitHub API error:', response.status, errorText);
+			throw new Error(`Failed to fetch repositories: ${response.status} ${errorText}`);
+		}
+		
+		const repos = await response.json();
+		console.log('Fetched repos count:', repos.length);
+		if (repos.length > 0) {
+			console.log('Sample repo:', repos[0]);
+		}
+		
+		return repos;
+	} catch (error) {
+		console.error('Error in fetchUserRepos:', error);
+		throw error;
 	}
-	return response.json();
 }
 
 export async function fetchRepoLanguages(repoName: string): Promise<GitHubLanguage> {
