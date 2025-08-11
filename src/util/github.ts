@@ -28,8 +28,22 @@ export interface GitHubRepo {
 }
 
 export interface GitHubLanguage {
-	[key: string]: number;
+	name: string;
+	percentage: number;
+	color: string;
 }
+
+// Real language data from user's GitHub stats
+export const realLanguageData: GitHubLanguage[] = [
+	{ name: 'C++', percentage: 89.89, color: '#f34b7d' },
+	{ name: 'C', percentage: 6.03, color: '#555555' },
+	{ name: 'Java', percentage: 1.92, color: '#b07219' },
+	{ name: 'Shell', percentage: 0.77, color: '#89e051' },
+	{ name: 'Kotlin', percentage: 0.59, color: '#f18e33' },
+	{ name: 'Makefile', percentage: 0.33, color: '#427819' },
+	{ name: 'HTML', percentage: 0.27, color: '#e34c26' },
+	{ name: 'Svelte', percentage: 0.20, color: '#ff3e00' }
+];
 
 export async function fetchUserData(): Promise<GitHubUser> {
 	const response = await fetch(`${GITHUB_API_BASE}/users/${USERNAME}`);
@@ -55,58 +69,21 @@ export async function fetchRepoLanguages(repoName: string): Promise<GitHubLangua
 	return response.json();
 }
 
-export async function fetchAllLanguages(): Promise<GitHubLanguage> {
-	const repos = await fetchUserRepos();
-	const allLanguages: GitHubLanguage = {};
-	
-	for (const repo of repos) {
-		const languages = await fetchRepoLanguages(repo.name);
-		for (const [lang, bytes] of Object.entries(languages)) {
-			allLanguages[lang] = (allLanguages[lang] || 0) + bytes;
-		}
+export async function fetchAllLanguages(): Promise<GitHubLanguage[]> {
+	try {
+		console.log('Fetching languages, returning real data:', realLanguageData);
+		// For now, return the real data we have
+		// In the future, this could fetch from GitHub API directly
+		return realLanguageData;
+	} catch (error) {
+		console.error('Error fetching languages:', error);
+		return realLanguageData; // Fallback to real data
 	}
-	
-	return allLanguages;
 }
 
-export function calculateLanguagePercentages(languages: GitHubLanguage) {
-	const total = Object.values(languages).reduce((sum, bytes) => sum + bytes, 0);
-	const percentages: { name: string; percentage: number; color: string }[] = [];
-	
-	const languageColors: { [key: string]: string } = {
-		TypeScript: '#3178c6',
-		JavaScript: '#f1e05a',
-		Python: '#3572A5',
-		Rust: '#dea584',
-		Go: '#00ADD8',
-		'C++': '#f34b7d',
-		Java: '#b07219',
-		PHP: '#4F5D95',
-		Ruby: '#701516',
-		Swift: '#ffac45',
-		Kotlin: '#F18E33',
-		HTML: '#e34c26',
-		CSS: '#563d7c',
-		SCSS: '#cf649a',
-		Shell: '#89e051',
-		'C#': '#178600',
-		Vue: '#2c3e50',
-		React: '#61dafb',
-		Svelte: '#ff3e00'
-	};
-	
-	for (const [lang, bytes] of Object.entries(languages)) {
-		const percentage = Math.round((bytes / total) * 100);
-		if (percentage > 0) {
-			percentages.push({
-				name: lang,
-				percentage,
-				color: languageColors[lang] || '#6a737d'
-			});
-		}
-	}
-	
-	return percentages.sort((a, b) => b.percentage - a.percentage);
+export function calculateLanguagePercentages(languages: GitHubLanguage[]): GitHubLanguage[] {
+	// Sort by percentage descending
+	return languages.sort((a, b) => b.percentage - a.percentage);
 }
 
 export function generateContributionData(year: number) {
