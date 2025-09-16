@@ -122,7 +122,7 @@ const Hero = () => {
           <div className="flex justify-center mt-4">
             <Button variant="outline" size="sm" className="glass glow-on-hover group/btn" asChild>
               <a 
-                href="https://alex5402.me" 
+                href="https://www.alex5402.me" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

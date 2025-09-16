@@ -73,7 +73,7 @@ const Footer = () => {
               asChild
             >
               <a 
-                href="https://alex5402.me" 
+                href="https://www.alex5402.me" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
