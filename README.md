@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# Hi there, I'm Alex! 👋
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/58b3c674-7c0f-46e6-a3e4-0ece679bffe3
+[![Discord Presence](https://lanyard.cnrad.dev/api/803060151082418217)](https://discord.com/users/803060151082418217)
 
-## How can I edit this code?
+</div>
 
-There are several ways of editing your application.
+## 🚀 About Me
 
-**Use Lovable**
+I'm a passionate developer who loves creating innovative solutions and exploring new technologies. When I'm not coding, you can find me contributing to open source projects or learning something new.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/58b3c674-7c0f-46e6-a3e4-0ece679bffe3) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+<div align="center">
 
-**Use your preferred IDE**
+### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Tools & Technologies
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Development Environment
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Fish Shell](https://img.shields.io/badge/Fish-FF6B6B?style=for-the-badge&logo=fish&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-Follow these steps:
+</div>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📊 GitHub Stats
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+<div align="center">
 
-# Step 3: Install the necessary dependencies.
-npm i
+![Alex's GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=alex5402&show_icons=true&theme=nightowl&include_all_commits=true&count_private=true&hide_border=true)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+![Top Languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex5402&layout=compact&langs_count=8&theme=nightowl&hide_border=true)
 
-**Edit a file directly in GitHub**
+</div>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📈 Profile Views
 
-**Use GitHub Codespaces**
+<div align="center">
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+![Profile Views](https://komarev.com/ghpvc/?username=alex5402&style=flat-square&color=blue)
 
-## What technologies are used for this project?
+</div>
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+<div align="center">
 
-## How can I deploy this project?
+**Thanks for visiting! Feel free to connect with me on Discord** 🎮
 
-Simply open [Lovable](https://lovable.dev/projects/58b3c674-7c0f-46e6-a3e4-0ece679bffe3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+</div>
