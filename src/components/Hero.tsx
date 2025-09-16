@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Github, Mail, GamepadIcon, DollarSign } from "lucide-react";
+import { Github, Mail, GamepadIcon, DollarSign, ExternalLink } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 import ParticleBackground from "./ParticleBackground";
 
@@ -114,6 +114,21 @@ const Hero = () => {
                 <DollarSign className="w-5 h-5 mr-2 group-hover:text-yellow-500 transition-all duration-300 group-hover:scale-110" />
                 <span>Support</span>
                 <span className="ml-1 animate-wiggle">😍</span>
+              </a>
+            </Button>
+          </div>
+          
+          {/* alex5402.me Button */}
+          <div className="flex justify-center mt-4">
+            <Button variant="outline" size="sm" className="glass glow-on-hover group/btn" asChild>
+              <a 
+                href="https://alex5402.me" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <ExternalLink className="w-4 h-4 group-hover/btn:rotate-12 transition-transform duration-300" />
+                <span>alex5402.me</span>
               </a>
             </Button>
           </div>

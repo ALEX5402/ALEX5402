@@ -1,4 +1,5 @@
-import { Github, Mail, Heart } from "lucide-react";
+import { Github, Mail, Heart, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
@@ -57,11 +58,31 @@ const Footer = () => {
         </div>
 
         {/* Fun Footer Message */}
-        <div className="text-center mt-8 pt-8 border-t border-border/30">
-          <p className="text-xs text-muted-foreground">
-            Made with modern web technologies • Powered by React & Tailwind CSS • 
-            <span className="ml-2">🐱 Cat-approved code</span>
-          </p>
+        <div className="mt-8 pt-8 border-t border-border/30">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs text-muted-foreground text-center sm:text-left">
+              Made with modern web technologies • Powered by React & Tailwind CSS • 
+              <span className="ml-2">🐱 Cat-approved code</span>
+            </p>
+            
+            {/* alex5402.me Button */}
+            <Button
+              size="sm"
+              variant="outline"
+              className="glass glow-on-hover group/btn"
+              asChild
+            >
+              <a 
+                href="https://alex5402.me" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <ExternalLink className="w-4 h-4 group-hover/btn:rotate-12 transition-transform duration-300" />
+                <span className="text-xs">alex5402.me</span>
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </footer>
