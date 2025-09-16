@@ -50,8 +50,11 @@ const Work = () => {
   ];
 
   return (
-    <section className="py-20 px-4" id="work">
-      <div className="container mx-auto">
+    <section className="py-20 px-4 relative" id="work">
+      {/* Gradient Transition from About */}
+      <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-background/50 to-transparent -mt-8" />
+      
+      <div className="container mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

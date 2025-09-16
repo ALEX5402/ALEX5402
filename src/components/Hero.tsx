@@ -30,7 +30,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-animated">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-primary/15 via-primary/5 to-background/60">
       <ParticleBackground />
       
       {/* Dynamic Background Image with Parallax */}
@@ -59,27 +59,27 @@ const Hero = () => {
         <div className={`mb-8 transition-all duration-1000 ${isVisible ? 'reveal-up' : 'opacity-0 translate-y-12'}`}>
           <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass border gradient-border group hover:scale-105 transition-all duration-300">
             <span className="text-2xl animate-wiggle">👋</span>
-            <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">Welcome to my portfolio</span>
+            <span className="text-sm text-foreground/90 group-hover:text-foreground transition-colors font-medium">Welcome to my portfolio</span>
           </div>
         </div>
 
         {/* Main Title with shimmer effect */}
         <h1 className={`text-6xl md:text-8xl font-bold mb-6 transition-all duration-1000 delay-200 ${isVisible ? 'reveal-up-delay' : 'opacity-0 translate-y-12'}`}>
-          <span className="text-shimmer">ALEX</span>
+          <span className="text-shimmer">ALEX5402</span>
         </h1>
 
         {/* Subtitle with typewriter effect */}
         <div className={`space-y-2 mb-8 max-w-2xl mx-auto transition-all duration-1000 delay-400 ${isVisible ? 'reveal-up-delay-2' : 'opacity-0 translate-y-12'}`}>
-          <p className="text-xl md:text-2xl text-muted-foreground hover:text-gradient-reverse transition-all duration-500 cursor-default">
+          <p className="text-xl md:text-2xl text-foreground/80 hover:text-gradient-reverse transition-all duration-500 cursor-default">
             I like to make things simple.
           </p>
-          <p className="text-xl md:text-2xl text-muted-foreground hover:text-gradient transition-all duration-500 cursor-default">
+          <p className="text-xl md:text-2xl text-foreground/80 hover:text-gradient transition-all duration-500 cursor-default">
             I love cats :)
           </p>
         </div>
 
         {/* Description with enhanced styling */}
-        <p className={`text-lg text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed transition-all duration-1000 delay-600 ${isVisible ? 'reveal-up-delay-3' : 'opacity-0 translate-y-12'}`}>
+        <p className={`text-lg text-foreground/90 max-w-3xl mx-auto mb-12 leading-relaxed transition-all duration-1000 delay-600 ${isVisible ? 'reveal-up-delay-3' : 'opacity-0 translate-y-12'}`}>
           <span className="text-gradient-reverse font-semibold">Android developer</span> passionate about creating elegant mobile solutions and building amazing user experiences.
           Currently crafting native Android apps and contributing to <span className="text-primary font-medium">open-source projects</span>.
         </p>
@@ -135,13 +135,10 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Enhanced Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle group cursor-pointer">
-        <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center group-hover:border-primary transition-colors">
-          <div className="w-1 h-3 bg-muted-foreground rounded-full mt-2 animate-pulse group-hover:bg-primary transition-colors" />
-        </div>
-        <div className="text-xs text-muted-foreground mt-2 opacity-70 group-hover:opacity-100 transition-opacity">scroll</div>
-      </div>
+
+      {/* Shadow-like Blending Effect */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent via-black/20 to-black/60 z-10" />
+      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-black/40 z-10" />
     </section>
   );
 };

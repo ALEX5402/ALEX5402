@@ -29,7 +29,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="text-xl font-bold text-gradient hover:scale-105 transition-transform"
           >
-            ALEX
+            ALEX5402
           </button>
 
           {/* Navigation Links */}

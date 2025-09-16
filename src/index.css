@@ -52,9 +52,9 @@
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(180 100% 35%));
-    --gradient-mesh: radial-gradient(at 40% 20%, hsl(212 100% 48% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 80% 0%, hsl(180 100% 45% / 0.2) 0px, transparent 50%),
-                     radial-gradient(at 0% 50%, hsl(240 100% 60% / 0.2) 0px, transparent 50%);
+    --gradient-mesh: radial-gradient(at 40% 20%, hsl(212 100% 48% / 0.15) 0px, transparent 50%),
+                     radial-gradient(at 80% 0%, hsl(180 100% 45% / 0.1) 0px, transparent 50%),
+                     radial-gradient(at 0% 50%, hsl(240 100% 60% / 0.1) 0px, transparent 50%);
 
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(220 27% 4% / 0.05);
@@ -98,6 +98,9 @@
     @apply bg-background text-foreground antialiased;
     background-image: var(--gradient-mesh);
     cursor: none; /* Hide default cursor */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   html {
@@ -146,9 +149,10 @@
 
   /* Glass morphism effect */
   .glass {
-    @apply backdrop-blur-xl bg-card/40 border border-border/50;
+    @apply backdrop-blur-xl bg-card/60 border border-border/70;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   }
   
   .glass::before {
@@ -171,6 +175,7 @@
     transition: var(--transition-smooth);
     position: relative;
     overflow: hidden;
+    border: 1px solid hsl(var(--border) / 0.5);
   }
   
   .glow-on-hover::before {
@@ -191,17 +196,20 @@
   .glow-on-hover:hover {
     box-shadow: var(--shadow-glow);
     transform: translateY(-4px) scale(1.02);
+    border-color: hsl(var(--primary) / 0.6);
   }
 
   /* Accent glow effect */
   .accent-glow {
     position: relative;
     overflow: hidden;
+    border: 1px solid hsl(var(--border) / 0.5);
   }
   
   .accent-glow:hover {
     box-shadow: var(--shadow-accent-glow);
     transform: translateY(-2px);
+    border-color: hsl(var(--accent) / 0.6);
   }
 
   /* Magnetic hover effect */

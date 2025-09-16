@@ -25,8 +25,8 @@ const About = () => {
   ];
 
   return (
-    <section className="py-20 px-4" id="about">
-      <div className="container mx-auto">
+    <section className="py-20 px-4 relative" id="about">
+      <div className="container mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -60,7 +60,7 @@ const About = () => {
                   <span className="text-sm text-success font-medium">💭 Just chilling</span>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed hover:text-foreground transition-colors duration-300">
+                <p className="text-foreground/80 leading-relaxed hover:text-foreground transition-colors duration-300">
                   Hey there! I'm Suman, but people know me as Alex on the internet. :) I'm a{" "}
                   <span className="text-primary font-semibold hover:text-gradient-reverse transition-all duration-300 cursor-default group relative">
                     {age.years}-year-old
@@ -75,7 +75,7 @@ const About = () => {
             </div>
 
             <div className="space-y-4">
-              <p className="text-muted-foreground hover:text-foreground transition-colors duration-300">
+              <p className="text-foreground/80 hover:text-foreground transition-colors duration-300">
                 I enjoy contributing to{" "}
                 <a href="https://github.com/alex5402" className="text-accent hover:text-primary font-medium transition-all duration-300 hover:underline decoration-2 underline-offset-4">
                   🤓 open-source
@@ -96,7 +96,7 @@ const About = () => {
                   {skills.map((skill, index) => (
                     <div key={skill.name} className="space-y-1 group/skill">
                       <div className="flex justify-between text-sm">
-                        <span className="text-muted-foreground group-hover/skill:text-foreground transition-colors">{skill.name}</span>
+                        <span className="text-foreground/80 group-hover/skill:text-foreground transition-colors">{skill.name}</span>
                         <span className="text-primary font-medium group-hover/skill:text-accent transition-colors">{skill.level}%</span>
                       </div>
                       <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
